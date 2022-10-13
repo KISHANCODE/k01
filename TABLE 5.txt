@@ -1,0 +1,31 @@
+table 5
+
+#include <stdio.h>
+
+int main() {
+  int x = 5,  y = 1;
+  printf("5x1=%d\n", x *y); 
+  printf("5x2=%d\n", x *++y);
+  printf("5x3=%d\n", x *++y);
+   printf("5x4=%d\n", x *++y);
+    printf("5x5=%d\n", x *++y);
+     printf("5x6=%d\n", x *++y);
+      printf("5x7=%d\n", x *++y);
+       printf("5x8=%d\n", x *++y);
+        printf("5x9=%d\n", x *++y);
+         printf("5x10=%d\n", x *++y);
+         
+  return 0;
+}
+
+run
+5x1=5
+5x2=10
+5x3=15
+5x4=20
+5x5=25
+5x6=30
+5x7=35
+5x8=40
+5x9=45
+5x10=50
