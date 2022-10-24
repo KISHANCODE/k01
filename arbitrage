@@ -4,20 +4,21 @@
 int main()
 {
     int s1=41321, o1=41320, n1=41450, d1=41600,
-    s2=41304, o2=41321, n2=41455, d2=41621;
-      printf("gap spot to fut\n");
+        s2=41304, o2=41321, n2=41455, d2=41621;
+    printf("gap spot to fut\n");
     printf("oct %d \n", s1-o1);
     printf("nov %d \n", s1-n1);
     printf("dec %d \n", s1-d1);
-      printf("trade\n");
-
+    printf("trade\n");
     printf("oct buy %d \n", o2-o1);
     printf("dec sell %d \n", d1-d2);
-        int a=o2-o1, b=d1-d2;
+
+    int a=o2-o1, b=d1-d2;
     printf("pnl point %d  \n",a+b);
 
     return 0;
 }
+
 run
 gap spot to fut
 oct 1 
