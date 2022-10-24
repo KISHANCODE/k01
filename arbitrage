@@ -18,3 +18,11 @@ int main()
 
     return 0;
 }
+run
+gap spot to fut
+oct 1 
+nov -129 
+dec -279 trade
+oct buy 1 
+dec sell -21 
+pnl point -20  
